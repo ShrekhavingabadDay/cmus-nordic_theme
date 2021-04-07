@@ -1,0 +1,71 @@
+# --- for a chart of the 255 available colors see: -- #
+#
+# https://unix.stackexchange.com/questions/105568/how-can-i-list-the-available-color-names
+#
+# whichever variable is set to 130 is something that I don't know much about
+# and didn't seem to have an effect on the outcome
+#
+# --- with love by: ShrekhavingabadDay -- #
+
+### colors
+### {{{
+
+# where you type your commands
+set color_cmdline_fg=253
+set color_cmdline_bg=232
+
+# the vertical line on the main window
+set color_separator=232
+
+# this displays how much time there is left from the song
+set color_statusline_bg=232
+set color_statusline_fg=6
+
+# the songs title is displayed here
+set color_titleline_bg=232
+set color_titleline_fg=4
+
+# the colors of the main window
+set color_win_bg=default
+set color_win_fg=130
+
+# color of the active entries when not selected
+set color_win_cur=white
+
+# maybe sets the colors of a different layout?
+set color_win_dir=130
+
+# color of the inactive songnames 
+set color_win_fg=4
+
+### ---- settings for the INACTIVE window ---- ###
+
+# the played entries colors when selected
+set color_win_inactive_cur_sel_bg=235
+set color_win_inactive_cur_sel_fg=white
+
+# the inactive entries colors when selected
+set color_win_inactive_sel_bg=235
+set color_win_inactive_sel_fg=250
+
+### ---- settings for the ACTIVE window ---- ###
+
+# the played entries color when selected
+set color_win_cur_sel_bg=232
+set color_win_cur_sel_fg=white
+
+#  the inactive entries color when selected
+set color_win_sel_bg=232
+set color_win_sel_fg=250
+
+# --- END -- #
+
+# these set the colors of the titlebar at the top of the window
+set color_win_title_bg=232
+set color_win_title_fg=4
+
+# textcolor in commandbar (error(red) and info(green))
+set color_error=52
+set color_info=29
+
+### }}}
